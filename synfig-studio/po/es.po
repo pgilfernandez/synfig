@@ -1,5 +1,5 @@
 # Translation file for Synfig Studio package.
-# Copyright (C) 2021 Synfig Contributors
+# Copyright (C) 2023 Synfig Contributors
 # This file is distributed under the same license as the Synfig Studio package.
 # 
 # Translators:
@@ -24,12 +24,13 @@
 # Miguel López Casellas <milocasellas@gmail.com>, 2020
 # morevnaproject <ksee.zelgadis@gmail.com>, 2011
 # Rodolfo <rodolfo.guagnini@gmail.com>, 2018
+# Pablo Gil Fernández <pgilfernandez@gmail.com>, 2023
 msgid ""
 msgstr ""
 "Project-Id-Version: Synfig UI\n"
 "Report-Msgid-Bugs-To: https://github.com/synfig/synfig/issues\n"
-"POT-Creation-Date: 2021-08-23 11:23+0700\n"
-"PO-Revision-Date: 2021-08-23 04:23+0000\n"
+"POT-Creation-Date: 2023-10-10 11:23+0700\n"
+"PO-Revision-Date: 2023-10-10 04:23+0000\n"
 "Last-Translator: genete <genetita@gmail.com>\n"
 "Language-Team: Spanish (http://www.transifex.com/morevnaproject/synfig/language/es/)\n"
 "MIME-Version: 1.0\n"
@@ -61,7 +62,7 @@ msgstr "Características:"
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:3
 msgid "Can manipulate vector and bitmap artwork"
-msgstr "Puede manipular artwork vectorial y de mapa de bits"
+msgstr "Puede manipular arte vectorial y de mapa de bits"
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:4
 msgid "Automatic tweening (independent from FPS)"
@@ -89,7 +90,7 @@ msgstr "Todas la operaciones de color utilizan HDRI (Imagen de alto rango dinám
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:9
 msgid "Pentablet-friendly tools"
-msgstr "Herramientas amigables para dibujo en tabletas"
+msgstr "Herramientas compatibles con tabletas gráficas"
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:10
 msgid "Sound support"
@@ -97,7 +98,7 @@ msgstr "Soporte de sonido"
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:11
 msgid "Linking data on file- or parameter-level"
-msgstr "Enlace de tados anivel de fichero- o parámetro"
+msgstr "Enlace de datos a nivel de fichero o parámetro"
 
 #: ../org.synfig.SynfigStudio.appdata.xml.in.h:12
 msgid "Automatic animation using mathematical functions"
@@ -113,15 +114,15 @@ msgstr "habilita"
 
 #: ../synfigstudio-thumbnailer.schemas.in.h:2
 msgid "Enable this thumbnailer."
-msgstr "Habilita este thumbnailer."
+msgstr "Habilita este previsualizador."
 
 #: ../synfigstudio-thumbnailer.schemas.in.h:3
 msgid "Invoke Synfig as Thumbnailer"
-msgstr "Invocar Synfig como Thumbnailer"
+msgstr "Invocar Synfig como Previsualizador"
 
 #: ../synfigstudio-thumbnailer.schemas.in.h:4
 msgid "Invokes Synfig as a gnome thumbnailer for image/sif files"
-msgstr "Invoca Synfig como un thumbnailer de gnome para archivos imágenes/sif"
+msgstr "Invoca Synfig como un previsualizador de gnome para archivos imágenes/sif"
 
 #: ../plugins/add-skeleton-simple/plugin.xml.in.h:1
 msgid "Add Skeleton (Simple)"
@@ -133,19 +134,19 @@ msgstr "Exportar a formato Lottie"
 
 #: ../plugins/lottie-exporter/plugin.xml.in.h:2
 msgid "Lottie HTML Preview (*.html)"
-msgstr ""
+msgstr "Lottie con previsualización en HTML (*.html)"
 
 #: ../plugins/lottie-exporter/plugin.xml.in.h:3
 msgid "Lottie Animation (*.json)"
-msgstr ""
+msgstr "Lottie (*.json)"
 
 #: ../plugins/lottie-exporter/plugin.xml.in.h:4
 msgid "Lottie HTML Preview without variable widths (*.html)"
-msgstr ""
+msgstr "Lottie sin anchos variables con previsualización en HTML (*.html)"
 
 #: ../plugins/lottie-exporter/plugin.xml.in.h:5
 msgid "Lottie Animation without variable widths (*.json)"
-msgstr ""
+msgstr "Lottie sin anchos variables (*.json)"
 
 #: ../plugins/view-unhide-all-layers/plugin.xml.in.h:1
 msgid "Unhide All Layers"
@@ -258,11 +259,11 @@ msgstr "Opacidad"
 msgid ""
 "0 means brush is transparent, 1 fully visible\n"
 "(also known as alpha or opacity)"
-msgstr "la broca en 0 significa es transparente, 1 plenamente visible\n(también conocido como alfa u opacidad)"
+msgstr "la brocha en 0 significa es transparente, 1 plenamente visible\n(también conocido como alfa u opacidad)"
 
 #: ../src/brushlib/brushsettings.py:45
 msgid "Opacity multiply"
-msgstr "Múltiple Opacidad"
+msgstr "Opacidad múltiple"
 
 #: ../src/brushlib/brushsettings.py:45
 msgid ""
@@ -290,7 +291,7 @@ msgid ""
 "Basic brush radius (logarithmic)\n"
 " 0.7 means 2 pixels\n"
 " 3.0 means 20 pixels"
-msgstr "Radio de la brocha simple (logarítmico)\n0.7 significa 2 píxeles\n3.0 significa 20 píxeles"
+msgstr "\nRadio de la brocha simple (logarítmico)\n0.7 significa 2 píxeles\n3.0 significa 20 píxeles"
 
 #: ../src/brushlib/brushsettings.py:48
 msgid "Hardness"
@@ -312,7 +313,7 @@ msgid ""
 " 0.0 disable (for very strong erasers and pixel brushes)\n"
 " 1.0 blur one pixel (good value)\n"
 " 5.0 notable blur, thin strokes will disappear"
-msgstr "Este ajuste disminuye la dureza cuando es necesario para evitar el efecto de pixel escalonado.\n0.0 desactivado (para borradores muy fuertes y pinceles de pixel)\n1.0 desenfoque de un pixel (buen valor)\n5.0 desenfoque notable, los trazos finos desaparecerán"
+msgstr "\nEste ajuste disminuye la dureza cuando es necesario para evitar el efecto de pixel escalonado.\n0.0 desactivado (para borradores muy fuertes y pinceles de pixel)\n1.0 desenfoque de un pixel (buen valor)\n5.0 desenfoque notable, los trazos finos desaparecerán"
 
 #: ../src/brushlib/brushsettings.py:50
 msgid "Dabs per basic radius"
@@ -322,11 +323,11 @@ msgstr "Aplica por radio básico"
 msgid ""
 "How many dabs to draw while the pointer moves a distance of one brush radius"
 " (more precise: the base value of the radius)"
-msgstr "Cuántos toques para dibujar mientras que el puntero mueve una distancia de radio de un pincel (más exacto: el valor base del radio)"
+msgstr "\nCuántos toques para dibujar mientras que el puntero mueve una distancia de radio de un pincel (más exacto: el valor base del radio)"
 
 #: ../src/brushlib/brushsettings.py:51
 msgid "Dabs per actual radius"
-msgstr "Aplica por radio actual"
+msgstr "Brochazos por radio actual"
 
 #: ../src/brushlib/brushsettings.py:51
 msgid ""
@@ -336,22 +337,22 @@ msgstr "Igual que arriba, pero se utiliza el radio actualmente dibujado, que pue
 
 #: ../src/brushlib/brushsettings.py:52
 msgid "Dabs per second"
-msgstr "Aplica por segundo"
+msgstr "Brochazos por segundo"
 
 #: ../src/brushlib/brushsettings.py:52
 msgid "Dabs to draw each second, no matter how far the pointer moves"
-msgstr "Aplica  un dibujo cada segundo, no importa como lejos el indicador se mueve"
+msgstr "Brochazos a dibujar por cada segundo, no importa como de lejos se mueva el indicador"
 
 #: ../src/brushlib/brushsettings.py:53
 msgid "Radius by random"
-msgstr "Radio de aleatoriedad"
+msgstr "Radio aleatorio"
 
 #: ../src/brushlib/brushsettings.py:53
 msgid ""
 "Alter the radius randomly each dab. You can also do this with the by_random input on the radius setting. If you do it here, there are two differences:\n"
 "1) the opaque value will be corrected such that a big-radius dabs is more transparent\n"
 "2) it will not change the actual radius seen by dabs_per_actual_radius"
-msgstr "Altera aleatoriamente el alcance por cada pizca. Usted también puede hacer esto con el by_random introducido en el alcance del ajuste. Si no lo hace aquí, hay dos diferencias:\n1) el valor opaco será corregido como una pizca big-radius que es más transparente\n2) eso no cambiará el alcance actual visto mediante dabs_per_actual_radius"
+msgstr "Altera aleatoriamente el alcance por cada brochazo. Usted también puede hacer esto con el by_random introducido en el alcance del ajuste. Si no lo hace aquí, hay dos diferencias:\n1) el valor opaco será corregido como una brochazo big-radius que es más transparente\n2) eso no cambiará el alcance actual visto mediante dabs_per_actual_radius"
 
 #: ../src/brushlib/brushsettings.py:54
 msgid "Fine speed filter"
@@ -1051,7 +1052,7 @@ msgstr "Descripción:"
 
 #: ../src/gui/dialogs/dialog_keyframe.cpp:97
 msgid "Active: "
-msgstr ""
+msgstr "Activo: "
 
 #: ../src/gui/dialogs/dialog_preview.cpp:65 ../src/gui/canvasview.cpp:1153
 #: ../src/gui/canvasview.cpp:1195
@@ -1065,7 +1066,7 @@ msgstr "Preferencias de Synfig Studio"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:93
 msgid "Interface"
-msgstr "Interfase"
+msgstr "Interfaz"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:94
 msgid "Document"
@@ -1073,12 +1074,12 @@ msgstr "Documento"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:95
 msgid "Editing"
-msgstr "Editando"
+msgstr "Edición"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:96 ../src/gui/canvasview.cpp:1168
 #: ../src/gui/render.cpp:211
 msgid "Render"
-msgstr "Renderizar"
+msgstr "Renderizado"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:97
 msgid "System"
@@ -1086,7 +1087,7 @@ msgstr "Sistema"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:98
 msgid "Shortcuts"
-msgstr ""
+msgstr "Atajos"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:136
 #: ../src/gui/dialogs/dialog_setup.cpp:164
@@ -1140,7 +1141,7 @@ msgstr "Intervalo"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:199
 msgid "Brush Presets Path"
-msgstr "Camino de Set de Brochas"
+msgstr "Ruta de Grupo de Brochas"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:228
 msgid "Experimental features (requires restart)"
@@ -1266,17 +1267,18 @@ msgstr "Seleccionar"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:421
 msgid "Animation"
-msgstr ""
+msgstr "Animación"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:424
 msgid "Thumbnail preview"
-msgstr ""
+msgstr "Previsualización"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:426
 msgid ""
 "Turn on/off animation thumbnail preview when you hover your mouse over the "
 "timetrack panel."
-msgstr ""
+msgstr "Activar/Desactivar la previsualización cuando se pasa con el ratón sobre"
+"el panel de Línea de Tiempos"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:431 ../src/gui/renddesc.cpp:225
 msgid "Other"
@@ -1425,11 +1427,11 @@ msgstr "Herramienta de manejo"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:784
 msgid "Width point"
-msgstr "Anchura del piunto"
+msgstr "Anchura del punto"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:794
 msgid "Transformation widget tooltips"
-msgstr "Herramienta de tgransformación de widget"
+msgstr "Herramienta de transformación de widget"
 
 #: ../src/gui/dialogs/dialog_setup.cpp:801
 #: ../src/gui/docks/dock_timetrack.cpp:92
@@ -2099,7 +2101,7 @@ msgstr "Línea de Tiempo"
 
 #: ../src/gui/docks/dock_timetrack.cpp:349 ../src/gui/app.cpp:1003
 msgid "Timetrack (old)"
-msgstr ""
+msgstr "Línea de tiempo (antigua)"
 
 #: ../src/gui/docks/dock_timetrack2.cpp:43 ../src/gui/app.cpp:1008
 msgid "Timetrack"
@@ -2140,7 +2142,7 @@ msgstr ""
 
 #: ../src/gui/docks/dock_timetrack2.cpp:213
 msgid "Shortcut: "
-msgstr ""
+msgstr "Atajo: "
 
 #: ../src/gui/docks/dock_toolbox.cpp:70 ../src/gui/app.cpp:867
 #: ../src/gui/app.cpp:992
